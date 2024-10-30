@@ -13,7 +13,7 @@ public class QuantidadePareImpar {
 		
 		for(int i =1; i <= 10; i++) {
 			
-			System.out.println("Digite o "+i+"º numero");
+			System.out.println("Digite o " + i + "º número");
 			int numero = scanner.nextInt();
 			
 			if(numero % 2 ==0) {
@@ -27,6 +27,7 @@ public class QuantidadePareImpar {
 		System.out.println("Total de números pares: "+ par);
 		System.out.println("Total de números ímpares: "+ impar);
 		
+		scanner.close();
 	}
 
 }

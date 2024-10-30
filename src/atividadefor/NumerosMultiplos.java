@@ -10,9 +10,9 @@ public class NumerosMultiplos {
 		
 		int num1,num2;
 		
-		System.out.println("Digite o primeiro nímero do intervalo: ");
+		System.out.println("Digite o primeiro número do intervalo: ");
 		num1 = scanner.nextInt();
-		System.out.println("Digite o segundo nímero do intervalo: ");
+		System.out.println("Digite o segundo número do intervalo: ");
 		num2 = scanner.nextInt();
 		
 		if(num1 >= num2) {
